@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.dots_wrapper{
+    border: 1px solid red
+}
+.dot{
+    display: block;
+    position: absolute;
+    width: 5px;
+    height: 5px;
+}
+
+.data_modal{
+    position: absolute;
+    display: block;
+    border: 1px solid red
+}
