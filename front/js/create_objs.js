@@ -7,7 +7,7 @@ scene.add(sphere);
 let points = [];
 
 const request = new XMLHttpRequest();
-const url = "http://127.0.0.1:8000/fires";
+const url = "https://250e-62-217-191-187.eu.ngrok.io/fires";
 request.open('GET', url);
 request.setRequestHeader('Content-Type', 'application/json');
 
